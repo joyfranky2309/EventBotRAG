@@ -32,21 +32,22 @@ EventBro is an AI-powered chatbot designed to assist users with questions relate
 
 ## Project Structure
 EventBotRAG/
-├── [app.py](http://_vscodecontentref_/1)                 # Streamlit app for user interaction
-├── [RAGmodel.py](http://_vscodecontentref_/2)            # Core logic for RAG and feedback handling
+├── [app.py](http://_vscodecontentref_/2)                 # Streamlit app for user interaction
+├── [RAGmodel.py](http://_vscodecontentref_/3)            # Core logic for RAG and feedback handling
 ├── data/                  # Folder for storing documents
-├── [feedback.txt](http://_vscodecontentref_/3)           # File for storing user feedback
+├── [feedback.txt](http://_vscodecontentref_/4)           # File for storing user feedback
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables (not included in the repo)
 ├── .gitignore             # Git ignore rules
-└── README.md              # Project documentation
-##Contributing
+└── [README.md](http://_vscodecontentref_/5)              # Project documentation
+
+## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 - Streamlit for the interactive UI.
 - Sentence Transformers for semantic search.
 - Google Generative AI for the generative model
