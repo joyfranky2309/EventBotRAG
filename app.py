@@ -1,5 +1,7 @@
 import streamlit as st
 from RAGmodel import generate_rag_response, is_feedback_mode
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 st.set_page_config(page_title="EventBro", layout="centered")
 
