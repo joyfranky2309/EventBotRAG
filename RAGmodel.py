@@ -36,7 +36,7 @@ def load_documents_from_folder(folder_path):
 
 folder_path = documents_path
 documents = load_documents_from_folder(folder_path)
-documents.extend(load_documents_from_folder('C:/Users/Sudha/Desktop/EventBotRAG/data/resumes'))
+documents.extend(load_documents_from_folder('data/resumes'))
 
 print(f"Loaded {len(documents)} documents")
 from sentence_transformers import SentenceTransformer
@@ -88,6 +88,8 @@ def generate_rag_response(query, user_id=None, user_input=None):
 
     # If feedback mode is off, handle normal RAG
     context = "\n".join(retrieve_relevant_chunks(query))
+    print("new\n")
+    print(f"Context: {context}")
     prompt = f"Based on the following context:\n{context}\n\nAnswer the question: {query}"
     response = model.generate_content(prompt)
     return response.text
