@@ -1,0 +1,19 @@
+10:00 - 11:00 AM: Hands-On Workshop – Automation using Claude and MCP Server  
+Speaker: Vijender P (Alumnx)
+
+11:00 - 12:00 PM: Hands-On Workshop – Agentic AI  
+Speaker: Jitendra Gupta (Google Developer Expert)
+
+12:00 - 1:00 PM: Industry Connect Session  
+Speaker: Ravi Babu (Apex Cura Healthcare)
+
+1:00 - 2:00 PM: Lunch Break(sponsered by Google)
+
+2:00 - 3:00 PM: Hands-On Workshop – Build an Event Bot using RAG  
+Speaker: Vishvas Dubey (TCS)
+
+3:00 - 3:30 PM: Industry Application of AI – Building Multi AI Agents  
+Speaker: Surendranath Reddy (QAPilot)
+
+3:30 - 4:00 PM: Workshop – Building Multi AI Agents  
+Speaker: Mahidhar (NexusHub)

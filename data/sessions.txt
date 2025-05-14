@@ -1,0 +1,68 @@
+Sessions Breakdown:
+1. Hands-On Workshop – Automation using Claude and MCP Server
+Time: 10:00 AM – 11:00 AM
+
+Speaker: Vijender P (Alumnx)
+
+Description: Learn about automation tools using Claude and MCP Server. This session will focus on automating tasks, improving efficiency, and leveraging AI in the automation field.
+
+Recommended For: Developers with an interest in automation, engineers, and those exploring automation tools.
+
+2. Hands-On Workshop – Agentic AI
+Time: 11:00 AM – 12:00 PM
+
+Speaker: Jitendra Gupta (Google Developer Expert)
+
+Description: This workshop focuses on creating intelligent agents using AI techniques. Participants will gain hands-on experience with agent-based AI models and their applications.
+
+Recommended For: Developers & Engineers with an interest in building intelligent agents or those looking to delve into AI in agent-based systems.
+
+3. Industry Connect Session
+Time: 12:00 PM – 1:00 PM
+
+Speaker: Ravi Babu (Apex Cura Healthcare)
+
+Description: Engage in a discussion on how AI is transforming industries, with a focus on healthcare applications. The session will highlight practical applications and industry needs.
+
+Recommended For: Tech professionals, students, entrepreneurs, or anyone interested in AI applications within healthcare.
+
+4. Lunch Break
+Time: 1:00 PM – 2:00 PM
+
+Description: Networking and informal discussions about AI and tech. An opportunity for attendees to meet and share experiences.
+
+5. Hands-On Workshop – Build an Event Bot using RAG
+Time: 2:00 PM – 3:00 PM
+
+Speaker: Vishvas Dubey (TCS)
+
+Description: This session will teach participants how to build a Retrieval-Augmented Generation (RAG) event bot, integrating AI technologies for efficient event management.
+
+Recommended For: Developers, product managers, or anyone interested in AI chatbots, especially with RAG techniques.
+
+6. Industry Application of AI – Building Multi AI Agents
+Time: 3:00 PM – 3:30 PM
+
+Speaker: Surendranath Reddy (QAPilot)
+
+Description: Explore how multiple AI agents can be built to solve complex problems. The session will discuss applications of multi-agent systems in industries.
+
+Recommended For: Engineers, entrepreneurs, or product managers interested in applying multi-agent AI to real-world challenges.
+
+7. Workshop – Building Multi AI Agents
+Time: 3:30 PM – 4:00 PM
+
+Speaker: Mahidhar (NexusHub)
+
+Description: This workshop will go deeper into the development and management of multiple AI agents working together to solve complex tasks.
+
+Recommended For: Developers, engineers, or anyone interested in building AI systems that involve multiple agents.
+
+Bot Recommendation Logic:
+Based on the resume details of the attendee, the bot can recommend relevant sessions by matching their skills with the sessions' content. For example:
+
+If someone has experience with automation tools or server management, they would be recommended to attend "Hands-On Workshop – Automation using Claude and MCP Server."
+
+If someone has experience with chatbots, RAG, or AI-based applications, they could be recommended to attend "Hands-On Workshop – Build an Event Bot using RAG."
+
+If someone has a background in multi-agent systems, they could be recommended to attend "Industry Application of AI – Building Multi AI Agents."

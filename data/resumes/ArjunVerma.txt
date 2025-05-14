@@ -1,0 +1,35 @@
+Name: Arjun Verma  
+Email: arjun.verma@email.com  
+Phone: +91-9876543210  
+Location: Bangalore, India  
+
+Summary:
+Highly motivated software developer with 3+ years of experience in full-stack web development. Skilled in designing scalable APIs, building modern UI interfaces, and deploying robust cloud-based applications.
+
+Skills:
+- Programming Languages: Python, JavaScript, Java
+- Web Technologies: React, Node.js, Express, Django
+- Databases: PostgreSQL, MongoDB, MySQL
+- DevOps: Docker, Git, Jenkins
+- Cloud: AWS (EC2, S3, Lambda), Heroku
+
+Experience:
+Software Developer – Zensoft Technologies (2021–Present)  
+- Developed scalable RESTful APIs in Node.js and Django  
+- Led migration of PostgreSQL schema for a microservices setup  
+- Integrated payment gateways and third-party APIs  
+
+Intern – CloudCraft Systems (2020)  
+- Built internal tools with React.js and Flask  
+- Automated report generation for customer success team  
+
+Education:
+B.Tech in Computer Science – NIT Trichy (2016–2020)
+
+Projects:
+- TaskTracker: Full-stack task manager app using MERN stack  
+- GitDash: Visual GitHub analytics dashboard built with D3.js  
+
+Certifications:
+- AWS Cloud Practitioner  
+- Udemy Full-Stack Developer Bootcamp

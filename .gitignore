@@ -13,9 +13,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Data files
-data/
-feedback.txt
 
 # Virtual environments
 venv/
