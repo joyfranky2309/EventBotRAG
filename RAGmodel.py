@@ -110,7 +110,7 @@ def generate_rag_response(query, user_id=None, user_input=None):
 
     Please follow these guidelines:
     1. Answer based ONLY on the context provided. If the information isn't in the context, say you don't have that specific information.
-    2. Be concise and to the point, but also warm and approachable.
+    2. Be concise and to the point, but also warm and approachable,Avoid unnecessary greeting
     3. Use a conversational tone with occasional emoji where appropriate.
     4. If asked about schedule details, speaker information, or workshop content, highlight the most relevant points.
     5. For technical questions, provide clear explanations without unnecessary jargon.
