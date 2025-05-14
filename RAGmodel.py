@@ -87,7 +87,7 @@ def generate_rag_response(query, user_id=None, user_input=None):
     global FEEDBACK_MODE
 
     if FEEDBACK_MODE:
-        # Expect format: "Name: Feedback"
+        # Feedback handling code remains the same
         try:
             name, feedback = user_input.split(":", 1)
             name = name.strip()
@@ -97,9 +97,29 @@ def generate_rag_response(query, user_id=None, user_input=None):
         except ValueError:
             return "📝 What did you think of this session? Please include your name like this:\n\n**Your Name: Your feedback**"
 
-    # Normal RAG mode
+    # Enhanced RAG mode with improved prompt
     context = "\n".join(retrieve_relevant_chunks(query))
-    prompt = f"Based on the following context:\n{context}\n\nAnswer the question: {query}"
+    
+    prompt = f"""You are EventBro, an enthusiastic and knowledgeable assistant for the AI Workshop. 
+    Your goal is to provide helpful, accurate information about the workshop in a friendly and engaging way.
+
+    CONTEXT INFORMATION:
+    {context}
+
+    USER QUERY: {query}
+
+    Please follow these guidelines:
+    1. Answer based ONLY on the context provided. If the information isn't in the context, say you don't have that specific information.
+    2. Be concise and to the point, but also warm and approachable.
+    3. Use a conversational tone with occasional emoji where appropriate.
+    4. If asked about schedule details, speaker information, or workshop content, highlight the most relevant points.
+    5. For technical questions, provide clear explanations without unnecessary jargon.
+    6. If someone asks where to find something at the workshop, give specific directions if available in the context.
+    7. Always be helpful and positive about the workshop experience.
+
+    If you don't know the answer or if the context doesn't contain relevant information, politely say so and suggest the person check with workshop staff or the official program.
+    """
+    
     response = model.generate_content(prompt)
     return response.text
 
