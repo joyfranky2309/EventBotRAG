@@ -75,7 +75,7 @@ else:
 
 # === Generative Model Setup ===
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-pro-latest")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def retrieve_relevant_chunks(query, k=3):
     query_embedding = embedder.encode([query])
